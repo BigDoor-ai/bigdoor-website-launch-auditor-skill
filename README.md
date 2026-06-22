@@ -1,6 +1,6 @@
 # Bigdoor Website Launch Auditor Skill
 
-A free, open-source, agent-agnostic website launch-readiness audit framework by BigDoor AI.
+A free, open-source, agent-agnostic website launch-readiness audit framework by BigDoor AI Labs.
 
 It helps developers, agencies, founders, and coding agents run a structured website audit before shipping. It covers UI, UX, architecture, accessibility, SEO, performance, security, backend/API safety, database handling, privacy/legal gaps, analytics, deployment readiness, and maintainability.
 
@@ -155,4 +155,4 @@ MIT License. Free for personal, commercial, agency, and open-source use.
 
 ## Maintainer
 
-BigDoor AI
+BigDoor AI Labs Pte. Ltd
