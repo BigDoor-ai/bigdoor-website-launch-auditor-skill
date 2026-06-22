@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+website-launch-audit-*.md
+website-launch-audit-*.json
+BIGDOOR_WEBSITE_LAUNCH_AUDIT_REPORT.md
