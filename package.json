@@ -1,0 +1,42 @@
+{
+  "name": "@bigdoor-ai/website-launch-auditor",
+  "version": "0.1.0",
+  "description": "Agent-agnostic website launch-readiness audit skill and CLI by BigDoor AI.",
+  "type": "module",
+  "bin": {
+    "bd-audit": "./cli/src/index.js",
+    "bigdoor-audit": "./cli/src/index.js"
+  },
+  "files": [
+    "cli/",
+    "skill/",
+    "checklists/",
+    "agents/",
+    "examples/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "doctor": "node cli/src/index.js doctor",
+    "check-project": "node cli/src/index.js check-project",
+    "audit": "node cli/src/index.js audit"
+  },
+  "keywords": [
+    "website-audit",
+    "launch-checklist",
+    "coding-agent",
+    "codex",
+    "cursor",
+    "claude-code",
+    "seo",
+    "accessibility",
+    "security",
+    "ux"
+  ],
+  "author": "BigDoor AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
