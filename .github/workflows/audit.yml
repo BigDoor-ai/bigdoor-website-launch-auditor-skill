@@ -1,0 +1,20 @@
+name: Bigdoor Website Launch Audit
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run project check
+        run: node cli/src/index.js check-project
+      - name: Upload audit outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-launch-audit
+          path: |
+            website-launch-audit-project-check.md
+            website-launch-audit-project-check.json
