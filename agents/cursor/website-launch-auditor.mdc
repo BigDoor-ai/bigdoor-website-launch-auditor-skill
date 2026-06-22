@@ -1,0 +1,12 @@
+---
+description: Bigdoor Website Launch Auditor Skill
+globs:
+  - "**/*"
+alwaysApply: false
+---
+
+Use the Bigdoor Website Launch Auditor Skill.
+
+Do not modify code unless explicitly asked.
+
+Read `skill/WEBSITE_LAUNCH_AUDITOR.md` and generate the report using `skill/REPORT_TEMPLATE.md`.
